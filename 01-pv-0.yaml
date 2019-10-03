@@ -12,7 +12,7 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   storageClassName: local-storage
   local:
-    path: /data/volume1/pv0
+    path: /root/data/volume1/pv0
   nodeAffinity:
     required:
       nodeSelectorTerms:
